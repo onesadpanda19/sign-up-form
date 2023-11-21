@@ -1,0 +1,43 @@
+body {
+    display:flex;
+    height: fit-content;
+    font-size: larger;
+}
+
+.container1 {
+    height:55rem;
+    display:flex;
+    flex-direction: row;
+    flex: 1 0 0;
+    background-image: url(images/andres-dallimonti-ykkwMgill3k-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:50% 100%;
+}
+
+.logo {
+    width: 60rem;
+    height: 3rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+.container2 {
+display:flex;
+flex-direction: column;
+}
+
+.ldt {
+    display:flex;
+    margin: 1rem;
+    gap: 5rem;
+    
+
+}
+
+.container3 {
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
