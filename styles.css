@@ -2,6 +2,7 @@ body {
     display:flex;
     height: fit-content;
     font-size: larger;
+    color: azure;
 }
 
 .container1 {
@@ -13,6 +14,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:50% 100%;
+    background-color: rgb(26, 65, 65);
 }
 
 .logo {
@@ -26,18 +28,36 @@ body {
 .container2 {
 display:flex;
 flex-direction: column;
+margin-top: 10rem;
 }
 
 .ldt {
     display:flex;
     margin: 1rem;
     gap: 5rem;
-    
-
 }
 
 .container3 {
     display:flex;
     flex-wrap: wrap;
     row-gap: 1rem;
+    margin-top: 5rem;
+    justify-content: center;
 }
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.pass {
+    display: flex;
+    justify-content: center;
+}
+
+/*more flexbox boxes
