@@ -15,41 +15,44 @@
     <div class="container2">
             <p>This is not a real online service! You know you need something like this in your life to realize your deepest dreams. Sign up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to. </p>
-            <div class="container3">
-                <form action="" method="post">
-                    <label for="Fist_Name">First Name:</label>
-                    <input type="text" name="First Name" id="First_Name">
-                </form>
-                <form action="" method="post">
-                    <label for="Last_Name">Last Name</label>
-                    <input type="text" name="Last Name" id="Last_Name">
-                </form>
-            </div>
-            <div class="contact">
-                <form action="" method="post">
-                    <label for="user_email">Email Address</label>
-                    <input type="email" name="email" id="User_Email" placeholder="something@example.com">
-                </form>
-                <form action="" method="post">
-                    <label for="number">Phone Number</label>
-                    <input type="number" name="Phone Number" id="Phone_Number">
-                </form>
-            </div>
+            <form>
+                <div class="container3">
+                    <fieldset action="" method="post">
+                        <label for="Fist_Name">First Name:</label>
+                        <input type="text" name="First Name" id="First_Name">
+                    </fieldset>
+                    <fieldset action="" method="post">
+                        <label for="Last_Name">Last Name</label>
+                        <input type="text" name="Last Name" id="Last_Name">
+                    </fieldset>
+                </div>
+                <div class="contact">
+                    <fieldset action="" method="post">
+                        <label for="user_email">Email Address</label>
+                        <input type="email" name="email" id="User_Email" placeholder="something@example.com">
+                    </fieldset>
+                    <fieldset action="" method="post">
+                        <label for="number">Phone Number</label>
+                        <input type="number" name="Phone Number" id="Phone_Number">
+                    </fieldset>
+                </div>
                 <div class="pass">
-                <form action="" method="post">
-                    <label for="user_password">Password</label>
-                    <input type="password" name="password" id="User_Password">
-                </form>
-                <form action="" method="post">
-                    <label for="confirm_password">Confirm Password</label>
-                    <input type="password" name="confirm" id="Confirm_Password">
-                </form>
-            </div>
+                    <fieldset action="" method="post">
+                        <label for="user_password">Password</label>
+                        <input type="password" name="password" id="User_Password">
+                    </fieldset>
+                    <fieldset action="" method="post">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm" id="Confirm_Password">
+                    </fieldset>
+                </div>
         <div class="container4">
-            <form action="" method="post">
+            <fieldset action="" method="post">
                 <label for="create_account"></label>
-                <input type="button" value="Create Account">
-            </form> 
+                <input type="button" id= "button" value="Create Account"> 
+            </fieldset> 
+        </form>
+        <div></div>
             <p>Already have an Account? <a href>Login Here</a></p>   
         </div>
     </div>
