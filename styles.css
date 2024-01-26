@@ -143,10 +143,11 @@ fieldset {
     height: 3em;
     color: aquamarine;
     background-color: darkcyan;
+    border: 0px;
 }
 
 input {
-    border-radius: 10%;
+    border-radius: 4px;
 }
  img {
     height: 7rem;
