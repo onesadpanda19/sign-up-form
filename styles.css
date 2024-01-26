@@ -79,7 +79,7 @@ body {
     font-family: Norse-Bold;
     font-size: 5rem;
     background-color: rgba(0,0,0,.25);
-    
+    margin-top: 20rem;
 }
 
 
@@ -91,6 +91,7 @@ flex-wrap: wrap;
 margin-top: 10rem;
 font-size: 30px;
 font-family: sans-serif;
+margin-left: 20px;
 }
 
 .ldt {
@@ -135,6 +136,7 @@ font-family: sans-serif;
 fieldset {
     display: flex;
     flex-direction: column;
+    font-size: small;
 }
 #button {
     width: 9rem;
@@ -144,16 +146,19 @@ fieldset {
 }
 
 input {
-    border-radius: 15%;
+    border-radius: 10%;
 }
  img {
     height: 7rem;
  }
 
  .shadow {
-    width: 200rem; 
+    width: 100%; 
     box-shadow: 0px 10px 25px 10px rgba(77, 74, 74, .2);
     padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: -20px;
  }
  
  .hook {
